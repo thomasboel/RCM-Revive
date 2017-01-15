@@ -1,0 +1,13 @@
+[
+    {
+        "modid": "rcm",
+        "name": "The Runescape Client Mod",
+        "version": "Alpha",
+		"mcversion": "1.7.10",
+        "authorList": ["JavaBuckets"],
+        "credits": "",
+        "url": "http://www.planetminecraft.com/member/javabuckets/",
+        "description": "",
+		"requiredMods": [ "Forge" ],
+    }
+]
