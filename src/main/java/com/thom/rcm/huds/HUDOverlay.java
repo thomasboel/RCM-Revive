@@ -9,6 +9,8 @@ public class HUDOverlay
 	{
 		Minecraft mc = Minecraft.getMinecraft();
 		
-		MinecraftForge.EVENT_BUS.register(new HUDTest(mc));
+		MinecraftForge.EVENT_BUS.register(new HUDSkillInterface(mc));
+		
+		//MinecraftForge.EVENT_BUS.register(new HUDTest(mc));
 	}
 }

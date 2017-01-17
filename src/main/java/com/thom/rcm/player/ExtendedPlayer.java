@@ -34,6 +34,7 @@ public class ExtendedPlayer implements IExtendedEntityProperties
 		NBTTagCompound properties = new NBTTagCompound();
 		
 		RCM.instance.skillHandler.writeToNBT(properties);
+		RCM.instance.playerSettings.writeToNBT(properties);
 		
 		compound.setTag(EXT_PROP_NAME, properties);
 	}
@@ -44,6 +45,7 @@ public class ExtendedPlayer implements IExtendedEntityProperties
 		NBTTagCompound properties = (NBTTagCompound)compound.getTag(EXT_PROP_NAME);
 		
 		RCM.instance.skillHandler.readFromNBT(properties);
+		RCM.instance.playerSettings.readFromNBT(properties);
 	}
 	
 	@Override
