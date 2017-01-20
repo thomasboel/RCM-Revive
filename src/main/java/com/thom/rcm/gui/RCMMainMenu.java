@@ -23,7 +23,7 @@ public class RCMMainMenu extends GuiScreen
 		switch (button.id) 
 		{
 		case 1:
-			mc.displayGuiScreen(new InterfaceEditMode());
+			mc.displayGuiScreen(new InterfaceEditMode("Skills"));
 			break;
 		}
 	}

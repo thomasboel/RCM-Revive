@@ -30,6 +30,7 @@ public class SkillReference
 	public static final String div = "divination";
 	
 	public static String[] skill = { att, cons, mine, str, agi, smith, def, herb, fish, range, thiev, cook, pray, craft, fm, mage, fletch, wc, rc, slay, farm, con, hunt, summ, dung, div };
+	public static String[] skillDisplay = { att, str, def, range, pray, mage, rc, con, dung, cons, agi, herb, thiev, craft, fletch, slay, hunt, div, mine, smith, fish, cook, fm, wc, farm, summ };
 	
 	public static double getXpFromLevel(int lvl)
 	{

@@ -39,12 +39,6 @@ public class PlayerEventHandler
 			{
 				mc.displayGuiScreen(new RCMMainMenu());
 			}
-			
-			if (Keyboard.isKeyDown(Keyboard.KEY_P))
-			{
-				if (RCM.instance.playerSettings.isEditMode) { RCM.instance.playerSettings.isEditMode = false; }
-				else { RCM.instance.playerSettings.isEditMode = true; }
-			}
 		}
 	}
 }

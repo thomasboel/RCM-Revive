@@ -6,6 +6,7 @@ public class RCMPlayerSettings
 {
 	public boolean hideHUD = false;
 	public boolean isEditMode = false;
+	
 	public int x = 0, y = 0;
 	
 	public RCMPlayerSettings() 
